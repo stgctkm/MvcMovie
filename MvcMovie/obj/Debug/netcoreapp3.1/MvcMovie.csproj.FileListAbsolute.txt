@@ -32,3 +32,5 @@
 /Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/MvcMovie.dll
 /Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/MvcMovie.pdb
 /Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/MvcMovie.csproj.CopyComplete
+/Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/Razor/Views/HelloWorld/index.cshtml.g.cs
+/Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/Razor/Views/HelloWorld/Welcome.cshtml.g.cs
