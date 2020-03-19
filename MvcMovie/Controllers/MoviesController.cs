@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using MvcMovie.Data;
 using MvcMovie.Models;
 
@@ -13,15 +14,25 @@ namespace MvcMovie.Controllers
     public class MoviesController : Controller
     {
         private readonly MvcMovieContext _context;
+        private readonly ILogger _logger;
 
-        public MoviesController(MvcMovieContext context)
+        public MoviesController(MvcMovieContext context, ILogger<MoviesController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         // GET: Movies
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
+            _logger.LogInformation($"MovieController.Index searchString = {searchString}");
+            var movies = from m in _context.Movie
+                select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title.Contains(searchString));
+            }
             return View(await _context.Movie.ToListAsync());
         }
 
