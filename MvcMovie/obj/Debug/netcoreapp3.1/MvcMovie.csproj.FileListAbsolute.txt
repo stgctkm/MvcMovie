@@ -147,3 +147,9 @@
 /Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
 /Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Create.cshtml.g.cs
+/Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Delete.cshtml.g.cs
+/Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Details.cshtml.g.cs
+/Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Edit.cshtml.g.cs
+/Users/setoguchi/RiderProjects/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Index.cshtml.g.cs

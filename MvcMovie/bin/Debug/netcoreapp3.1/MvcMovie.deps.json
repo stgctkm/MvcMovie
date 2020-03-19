@@ -25,6 +25,7 @@
       "MvcMovie/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.4.0",
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.2",
           "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
           "Microsoft.EntityFrameworkCore": "3.1.2",
           "Microsoft.EntityFrameworkCore.Design": "3.1.2",
@@ -324,6 +325,20 @@
         "compile": {
           "lib/netstandard2.1/EntityFramework.SqlServer.dll": {},
           "lib/netstandard2.1/EntityFramework.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/3.1.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.6801"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {}
         }
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -3831,6 +3846,13 @@
       "sha512": "sha512-7jDmcQ3jaN5G7ZJC7Ecq161zQBs/5LqRzBdZ/I4XfmSvOwteGgNjOi30kthFador4Qjo3qUU6iOB1H04GIXrpg==",
       "path": "entityframework/6.4.0",
       "hashPath": "entityframework.6.4.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0ysz80HcarZUsfQm/AjEXrFso3IqUd69+XCtx73UKEdkT1KGAQl/GAtIsJ5xZ4Fnz8M58locJXbReR2IKE5nsw==",
+      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/3.1.2",
+      "hashPath": "microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "type": "package",

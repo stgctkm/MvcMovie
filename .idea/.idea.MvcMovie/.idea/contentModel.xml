@@ -16,6 +16,11 @@
         <e p="Data" t="Include">
           <e p="MvcMovieContext.cs" t="Include" />
         </e>
+        <e p="Migrations" t="Include">
+          <e p="20200318094435_InitialCreate.cs" t="Include" />
+          <e p="20200318094435_InitialCreate.Designer.cs" t="Include" />
+          <e p="MvcMovieContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="Movie.cs" t="Include" />
